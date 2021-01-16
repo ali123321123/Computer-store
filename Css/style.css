@@ -1,0 +1,121 @@
+html,
+body {
+  margin-right: 20px;
+  margin-left: 20px;
+
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 20% 40% 40% 1%;
+  grid-template-rows: 150px auto;
+
+  grid-template-areas:
+    "nv nv nv  "
+    "hd hd hd  "
+    "mn mn mn  "
+    "mn mn mn  "
+    "ft ft ft  ";
+}
+
+.grid-container > * {
+  padding: 30px;
+
+  color: #fff;
+}
+
+nav > img {
+  width: 8em;
+}
+.pay-btn {
+  background-color: cyan;
+}
+nav > h1 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 60px;
+  font-weight: initial;
+}
+
+.ul-list {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  margin: 0 10em 0 0;
+  background-color: rgb(218, 216, 216);
+  color: rgb(14, 12, 12);
+  list-style: none;
+}
+.btn-loan {
+  background-color: aquamarine;
+  color: black;
+  font-weight: bold;
+  height: 35px;
+  width: 15em;
+}
+
+#bank_Image {
+  width: 5em;
+  height: 5em;
+  margin: 20px;
+  margin-left: 25px;
+}
+.card-img-top {
+  width: 5em;
+  height: 5em;
+  margin: 20px;
+  margin-left: 25px;
+}
+header {
+  grid-area: hd;
+}
+.work-buttons {
+  display: flex;
+  justify-content: center;
+}
+.btn1 {
+  height: 35px;
+  width: 10px;
+}
+
+main {
+  grid-area: mn;
+  background: rgb(235, 229, 229);
+}
+
+aside {
+  grid-area: ad;
+  border: 2px solid black;
+}
+.laptop-section {
+  color: black;
+}
+.card-text {
+  color: black;
+}
+footer {
+  grid-area: ft;
+  background: #333;
+}
+
+section {
+  grid-area: sn;
+  background: rgb(51, 51, 51);
+}
+
+nav {
+  grid-area: nv;
+  background: rgb(175, 184, 187);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  border: none;
+}
