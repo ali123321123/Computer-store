@@ -74,14 +74,12 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Laptop</h5>
-                <p class="card-text">
-                  Here you can chosse between many models we have
+                <p class="card-text" id="app-status">
+                  
                 </p>
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" id="computers" aria-label="Default select example">
                   <option selected>Open this select menu</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                
                 </select>
               </div>
             </div>
@@ -89,7 +87,7 @@
         </ul>
       </header>
       <main>
-        <div class="d-flex flex-row justify-content-center">
+        <div class="d-flex flex-row justify-content-center" id="selected-computer">
           <div class="p-2">
             <img src="images/laptop.png" alt="laptop" />
           </div>
@@ -112,5 +110,6 @@
         </ul>
       </footer>
     </div>
+    <script src="javascript/index.js" type="module"></script>
   </body>
 </html>

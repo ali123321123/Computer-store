@@ -1,0 +1,17 @@
+{
+  "computers": [
+    {
+      "name": "BlaBla",
+      "description": "It's the Word on the street",
+      "spec": [
+        "12 Single Core",
+        "1MB Ram",
+        "Some storage",
+        "Requeries batteries"
+      ],
+      "price": 1250,
+      "image": "https://5.imimg.com/data5/AN/IQ/MY-32199850/hp-laptop-500x500.jpg",
+      "id": 1
+    }
+  ]
+}
