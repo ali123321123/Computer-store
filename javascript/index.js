@@ -8,7 +8,11 @@ class App {
         this.elStatus = document.getElementById('app-status')
         this.elComputerSelect = document.getElementById('computers')
         this.selectedComputer = document.getElementById('selected-computer')
-
+        this.laptopImage = document.getElementById('image-laptop')
+        this.laptopName = document.getElementById('laptop-name')
+        this.laptoPrice = document.getElementById('laptop-price')
+        this.laptopDes = document.getElementById('laptop-des')
+        this.imagesrc = document.getElementById("image-laptop");
 
 
     }
@@ -20,7 +24,18 @@ class App {
         this.selectedComputer = this.computers.find(computer =>{
             return computer.id === parseInt(this.elComputerSelect.value)
         })
-        this.elComputerSelect.innerText = JSON.stringify(this.selectedComputer)
+        console.log(this.selectedComputer)
+       // const laptopImage = createElement('img')
+       this.laptopName.innerText = this.selectedComputer.name
+       this.laptoPrice.innerText = this.selectedComputer.price
+       this.laptopDes.innerText = this.selectedComputer.description
+       const img = document.createElement("img");
+img.src = this.selectedComputer.image;
+
+this.imagesrc.appendChild(img);
+       
+
+        
     }
 
     async init(){
