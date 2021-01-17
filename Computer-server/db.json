@@ -12,6 +12,58 @@
       "price": 1250,
       "image": "https://5.imimg.com/data5/AN/IQ/MY-32199850/hp-laptop-500x500.jpg",
       "id": 1
+    },
+    {
+      "name": "Dell - XPS 13.4",
+      "description": "The all new Dell XPS 13 laptop featuring a 10th Gen InteI® Core™ mobile processor, it’s now possible to enjoy incredibly immersive entertainment on a remarkably thin and light laptop",
+      "spec": [
+        "intel core i7",
+        "1MB Ram",
+        "512 Gb",
+        "Requeries batteries"
+      ],
+      "price": 1349,
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6427/6427726_sd.jpg;maxHeight=300;maxWidth=450",
+      "id": 2
+    },
+    {
+      "name": "Dell - Inspiron 15.6",
+      "description": "Inspiron 5000 laptops bring tailored technology to you with lid-open sensors, adaptive thermals and an 11th Gen Intel® Core™ processor",
+      "spec": [
+        "intel core i7",
+        "16GB RAM",
+        "512 Gb",
+        "Wireless Connectivity (Wi-Fi 6 AX)"
+      ],
+      "price": 980,
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6439/6439290_sd.jpg;maxHeight=640;maxWidth=550",
+      "id": 3
+    },
+    {
+      "name": "HP - Stream 11.6",
+      "description": "Post, play, and stay productive for up to 13 hours and 15 minutes with the power of a Windows PC. HP Stream lets you do it all in a design that’s affordable, portable, and incredibly stylish",
+      "spec": [
+        "Dual-core Intel® Celeron®",
+        "4GB RAM",
+        "512 Gb",
+        " 2 cell Battery"
+      ],
+      "price": 980,
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6413/6413689_sd.jpg;maxHeight=640;maxWidth=550",
+      "id": 4
+    },
+    {
+      "name": "Lenovo - Yoga 9i 15",
+      "description": "The Lenovo™ Yoga™ 9i was designed and engineered to put your experience first. Innovative features are encased directly in a sleek 2-in-1 metal chassis",
+      "spec": [
+        "Intel Core i7",
+        "16GB RAM",
+        "1TB Gb",
+        " 2 cell Battery"
+      ],
+      "price": 1700,
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6426/6426711_sd.jpg;maxHeight=640;maxWidth=550",
+      "id": 5
     }
   ]
 }

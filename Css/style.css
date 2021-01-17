@@ -58,6 +58,31 @@ nav > h1 {
   font-weight: bold;
   height: 35px;
   width: 15em;
+  margin-top: 20px;
+}
+.outstanding-loan {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+}
+
+.outstanding-loan li {
+  font-weight: bold;
+  list-style-position: inside;
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 2px;
+  padding-bottom: 10px;
+}
+#work-list {
+  display: flex;
+  list-style: none;
+  justify-content: right;
+}
+
+#work-list > li {
+  padding: 5px;
 }
 
 #bank_Image {
